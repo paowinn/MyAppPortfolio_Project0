@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/cyan200"
+        android:state_pressed="true" />
+    <item android:drawable="@color/cyan100"
+        android:state_focused="true" />
+    <!-- Default color for button -->
+    <item android:drawable="@color/cyan500" />
+</selector>
