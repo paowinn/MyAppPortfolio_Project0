@@ -1,0 +1,93 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="61dp"
+    android:layout_gravity="center"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/movies_app"
+        android:id="@+id/btnMoviesApp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:padding="25dp"
+        android:onClick="launchMoviesApp"
+        android:background="@drawable/custom_button"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scores_app"
+        android:id="@+id/btnScoresApp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:padding="25dp"
+        android:onClick="launchScoresApp"
+        android:background="@drawable/custom_button"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/library_app"
+        android:id="@+id/btnLibraryApp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:padding="25dp"
+        android:onClick="launchLibraryApp"
+        android:background="@drawable/custom_button"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/build_it_bigger_app"
+        android:id="@+id/btnBuildItBiggerApp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:padding="25dp"
+        android:onClick="launchBuildItBiggerApp"
+        android:background="@drawable/custom_button"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xyz_reader_app"
+        android:id="@+id/btnXYZReaderApp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:padding="25dp"
+        android:onClick="launchXYZReaderApp"
+        android:background="@drawable/custom_button"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/capstone_app"
+        android:id="@+id/btnCapstoneApp"
+        android:layout_marginBottom="50dp"
+        android:textAlignment="center"
+        android:padding="25dp"
+        android:onClick="launchCapstoneApp"
+        android:background="@drawable/custom_button_capstone"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+</LinearLayout>
+
